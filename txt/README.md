@@ -1,17 +1,10 @@
-# Book Title
+# Tareas Iniciales Sistemas y Tecnologías Web
 
-> Book introduction here.
+Esta primera practica consiste en el desarrollo de una serie de tutoriales en los que se expliquen los pasos a seguir para llevar a cabo la instalacion y utilizacion de una serie de herramientas.Es una forma de familiarizarse con cada una de las herramientas que seran usadas durante la asignatura SYTW. 
+Estas herramientas son:
 
-## Live Demo
-
-[Check demo!](http://my-user.github.io/my-repo)
-
-## Background
-
-> [gitbook](http://www.gitbook.io) is used to generate github pages.
-
-## Contributing
-
-1. Create Issue
-2. Fork and PR
-
+* GitBook
+* NodeJs
+* Gulpfile
+* npm
+* Package.json
