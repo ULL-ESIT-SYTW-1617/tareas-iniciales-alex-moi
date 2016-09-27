@@ -37,6 +37,7 @@
     "gitbook": "^2.1.0"
   },
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "gulp-install": "^0.6.0"
   }
 }
