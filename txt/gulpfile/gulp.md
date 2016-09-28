@@ -10,3 +10,5 @@ Gulp.js utiliza el módulo **Stream** de Node.js, lo cual lo hace más rápido p
 Para instalarlo, debemos utilizar **npm**:
 
 > npm install -g gulp
+
+Todas las tareas que se quieran realizar, deberán estar en el fichero **gulpfile.js** en la raíz del proyecto.
