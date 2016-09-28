@@ -1,6 +1,6 @@
 # Práctica: Tareas Iniciales. JavaScript. NodeJS. Gulpfile. Gitbook
 
-* [Instalación de Node](nodejs/nodejs)
+* [Instalación de Node](nodejs/nodejs.md)
 * [Instalación Express]()
 * [¿Qué es Markdown?]()
 * [Gitbook]()
