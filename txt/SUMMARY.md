@@ -1,6 +1,5 @@
 # Práctica: Tareas Iniciales. JavaScript. NodeJS. Gulpfile. Gitbook
 
-* [Instalación de Node](nodejs/nodejs.md)
 * [Instalación Express](express/express.md)
 * [Markdown](markdown/README.md)
 	* [¿Qué es Markdown?](markdown/markdown.md)
@@ -13,7 +12,8 @@
   * [¿Qué es?]()
   * [¿Cómo se usa?]()
 * [NodeJS](nodejs/README.md)
-	* [¿Qué es NodeJS?](nodejs/nodejs.md)  
+	* [¿Qué es NodeJS?](nodejs/nodejs.md)
+	* [Instalación de Node](nodejs/instalacionnodejs.md)
 * [npm](npm/README.md)
 	* [¿Qué es npm?](npm/npm.md)
 * [¿Qué es package.json?](packagejson/packagejson.md)
