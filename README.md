@@ -12,5 +12,9 @@ En esta práctica, comenzaremos a utilizar **GitBook**, un sistema que nos permi
 
 ## Autores
 
-Alexander Cole Mora 
-Moisés Yanes Carballo
+* Alexander Cole Mora 
+* Moisés Yanes Carballo
+
+
+
+
