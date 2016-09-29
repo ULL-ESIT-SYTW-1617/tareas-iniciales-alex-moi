@@ -14,7 +14,6 @@
 * [NodeJS](nodejs/README.md)
 	* [¿Qué es NodeJS?](nodejs/nodejs.md)
 	* [Instalación de Node](nodejs/instalacionnodejs.md)
-* [npm](npm/README.md)
-	* [¿Qué es npm?](npm/npm.md)
+* [npm](npm/npm.md)
 * [¿Qué es package.json?](packagejson/packagejson.md)
 * [Gulpfile](gulpfile/gulp.md)
