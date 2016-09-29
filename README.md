@@ -1,27 +1,16 @@
-# GitBook Boilerplate
+# Sistemas y Tecnologías Web. Tareas Iniciales.
 
-# Installation
+## Introducción
 
-```shell
-cd ~/code
+En esta práctica, comenzaremos a utilizar **GitBook**, un sistema que nos permite crear nuestros propios books de una manera sencilla. Además utilizaremos otras herramientas como **NodeJS**, **Gulp** o **npm**, realizando unos pequeños tutoriales y breves explicaciones sobre cada herramienta.
 
-git clone https://github.com/enten/gitbook-boilerplate.git awesome-project
+## Enlaces importantes
+* [GitBook Tareas Iniciales SYTW](https://ull-esit-sytw-1617.github.io/tareas-iniciales-alex-moi/)
+*  [Repositorio GitHub](https://github.com/ULL-ESIT-SYTW-1617/tareas-iniciales-alex-moi)
+*  [Descripción de la práctica](https://crguezl.github.io/ull-esit-1617/practicas/practicagitbook.html)
+*  [Campus Virtual](https://campusvirtual.ull.es/1617/course/view.php?id=1175)
 
-cd awesome-project
+## Autores
 
-rm -fr .git
-
-vi package.json
-# edit repository.url and repository.wiki
-
-git remote add origin <url>
-
-npm run build
-# or
-# npm run generate-gitbook && npm run generate-wiki
-
-npm run deploy
-# or
-# npm run deploy-gitbook && npm run deploy-wiki
-```
-__Important__: Wiki must be created on Github
+Alexander Cole Mora 
+Moisés Yanes Carballo
