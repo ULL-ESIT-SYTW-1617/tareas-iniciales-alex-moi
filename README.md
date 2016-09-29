@@ -15,6 +15,6 @@ En esta práctica, comenzaremos a utilizar **GitBook**, un sistema que nos permi
 * Alexander Cole Mora 
 * Moisés Yanes Carballo
 
-
+![Universidad de La Laguna](https://github.com/ULL-ESIT-SYTW-1617/tareas-iniciales-alex-moi/blob/master/images/logotipo-principal.png?raw=true)
 
 
