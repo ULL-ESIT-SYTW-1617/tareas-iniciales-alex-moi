@@ -31,4 +31,6 @@ En este caso, vamos a utilizar como ejemplo el uso de un plugins como es el de *
 
 Ahora utilizamos como ejemplo el plugin **codeeditor**
 
-{% codeeditor   src='../HTML/4Elements/forms/input.html', language='javascript', readOnly='true', theme='github' %} {% endcodeeditor %}
+{% codeeditor   src='../HTML/4Elements/forms/input.html',
+                language='javascript', readOnly='true', theme='github' %}
+{% endcodeeditor %}
