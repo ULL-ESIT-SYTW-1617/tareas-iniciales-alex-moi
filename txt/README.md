@@ -1,10 +1,18 @@
-# Tareas Iniciales Sistemas y Tecnologías Web
+# Sistemas y Tecnologías Web. Tareas Iniciales.
 
-Esta primera practica consiste en el desarrollo de una serie de tutoriales en los que se expliquen los pasos a seguir para llevar a cabo la instalacion y utilizacion de una serie de herramientas.Es una forma de familiarizarse con cada una de las herramientas que seran usadas durante la asignatura SYTW. 
-Estas herramientas son:
+## Introducción
 
-* GitBook
-* NodeJs
-* Gulpfile
-* npm
-* Package.json
+En esta práctica, comenzaremos a utilizar **GitBook**, un sistema que nos permite crear nuestros propios books de una manera sencilla. Además utilizaremos otras herramientas como **NodeJS**, **Gulp** o **npm**, realizando unos pequeños tutoriales y breves explicaciones sobre cada herramienta.
+
+## Enlaces importantes
+* [GitBook Tareas Iniciales SYTW](https://ull-esit-sytw-1617.github.io/tareas-iniciales-alex-moi/)
+*  [Repositorio GitHub](https://github.com/ULL-ESIT-SYTW-1617/tareas-iniciales-alex-moi)
+*  [Descripción de la práctica](https://crguezl.github.io/ull-esit-1617/practicas/practicagitbook.html)
+*  [Campus Virtual](https://campusvirtual.ull.es/1617/course/view.php?id=1175)
+
+## Autores
+
+* Alexander Cole Mora 
+* Moisés Yanes Carballo
+
+![Universidad de La Laguna](https://github.com/ULL-ESIT-SYTW-1617/tareas-iniciales-alex-moi/blob/master/images/logotipo-principal.png?raw=true)
