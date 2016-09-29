@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>¿Qué es? · GitBook</title>
+        <title>Plugins · GitBook</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -61,10 +61,10 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="comoseutilizagitbook.html" />
+    <link rel="next" href="../ghpages/" />
     
     
-    <link rel="prev" href="./" />
+    <link rel="prev" href="desplieguegitbook.html" />
     
 
     </head>
@@ -165,7 +165,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.4.1" data-path="queesgitbook.html">
+        <li class="chapter " data-level="1.4.1" data-path="queesgitbook.html">
             
                 <a href="queesgitbook.html">
             
@@ -204,7 +204,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.4" data-path="plugins.html">
+        <li class="chapter active" data-level="1.4.4" data-path="plugins.html">
             
                 <a href="plugins.html">
             
@@ -381,7 +381,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >¿Qué es?</a>
+        <a href=".." >Plugins</a>
     </h1>
 </div>
 
@@ -396,17 +396,12 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="gitbook"><strong>GitBook</strong></h1><h3 id="&#xBF;qu&#xE9;-es-gitbook">&#xBF;Qu&#xE9; es GitBook?</h3><p>GitBook es una joven plataforma para la publicaci&#xF3;n de libros, documentos, manuales y trabajos de investigaci&#xF3;n en Internet. Lanzado en el 2014, GitBook permite tanto a usuarios individuales como a organizaciones empresariales crear sus publicaciones digitales en Internet empleando el sistema de control de versiones Git, desarrollando los contenidos mediante el uso de la sintaxis en Markdown o AsciiDoc.</p><p>La filosof&#xED;a de la plataforma es la de ser lo m&#xE1;s simple posible pero lo suficientemente potente, evitando a los autores cualquier tipo de distracciones o problemas que pudieran surgir por el camino.</p><p>Esta plataforma est&#xE1; desarrollada bajo c&#xF3;digo abierto, y de hecho, su c&#xF3;digo fuente est&#xE1; disponible a trav&#xE9;s de GitHub. Los usuarios podr&#xE1;n formar parte de la misma creando sus cuentas con el m&#xE9;todo tradicional, basado en un simple formulario o, si lo disponen, usando sus cuentas en GitHub.</p><h3 id="caracter&#xED;sticas">Caracter&#xED;sticas</h3><blockquote><ul><li>Escribir usando Markdown o AsciiDoc
+                                <h5 id="a&#xF1;adir-im&#xE1;genes">A&#xF1;adir im&#xE1;genes</h5><p>Puedes a&#xF1;adirlas dentro de la carpeta resources. A&#xF1;adir dentro de esta carpeta el fuente de la imagen por si es necesario modificarla.</p><p>Puedes a&#xF1;adir la im&#xE1;genes con el siguiente c&#xF3;digo</p><pre><code>![Image demo](resources/keep-calm-portada.jpg)</code></pre>
+<p>Si a&#xF1;ades una nueva secci&#xF3;n al documento recuerda que tienes que a&#xF1;adirla en el fichero ./doc/SUMMARY.md si no utilizas el editor de GitBook.</p><h1 id="gitbook-plugins">Gitbook Plugins</h1><p>Los <strong>plugins</strong> en Gitbook nos permiten a&#xF1;adir funcionalidades nuevas a nuestro libro. En esta p&#xE1;gina podemos encontrar algunos <strong>plugins</strong> interesantes <a href="https://plugins.gitbook.com/" target="_blank">GitBook Plugins</a>.</p><h2 id="instalaci&#xF3;n">Instalaci&#xF3;n</h2><p>Deberemos de seguir los siguientes pasos:</p><ul><li>A&#xF1;adir al book.json el plugin:  <strong>&quot;plugins&quot;: [&quot;plugin_name&quot;]</strong>
 </li>
-<li>Salida como un sitio web o libro electr&#xF3;nico (pdf, epub, mobi)
-</li>
-<li>M&#xFA;ltiples lenguas
-</li>
-<li>Variables y Plantillas
-</li>
-<li>Plugins
+<li>ejecutar <em>gitbook install</em> 
 </li></ul>
-</blockquote><h3 id="&#xBF;c&#xF3;mo-publicar-en-gitbook">&#xBF;C&#xF3;mo publicar en gitbook?</h3><p>La plataforma GitBook.com es como &quot;Heroku para los libros&quot;: se puede crear un libro y actualizarlo usando git push.</p>
+<h2 id="ejemplos">Ejemplos</h2><p>En este caso, vamos a utilizar como ejemplo el uso de un plugins como es el de <strong>Youtube</strong></p><p><div style="position: relative;padding-bottom: 56.25%;padding-top: 25px;height: 0;"><iframe frameborder="0" allowfullscreen style="border: none;position: absolute;top: 0;left: 0;width: 100%;height: 100%;" src="//www.youtube.com/embed/cyohHyQl-kc"></iframe></div></p>
                                 
                                 </section>
                             
@@ -433,12 +428,12 @@
 
             
                 
-                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Gitbook">
+                <a href="desplieguegitbook.html" class="navigation navigation-prev " aria-label="Previous page: Despliegue">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="comoseutilizagitbook.html" class="navigation navigation-next " aria-label="Next page: ¿Cómo se utiliza?">
+                <a href="../ghpages/" class="navigation navigation-next " aria-label="Next page: Gh-pages">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -449,7 +444,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"¿Qué es?","level":"1.4.1","depth":2,"next":{"title":"¿Cómo se utiliza?","level":"1.4.2","depth":2,"path":"gitbook/comoseutilizagitbook.md","ref":"gitbook/comoseutilizagitbook.md","articles":[]},"previous":{"title":"Gitbook","level":"1.4","depth":1,"path":"gitbook/README.md","ref":"gitbook/README.md","articles":[{"title":"¿Qué es?","level":"1.4.1","depth":2,"path":"gitbook/queesgitbook.md","ref":"gitbook/queesgitbook.md","articles":[]},{"title":"¿Cómo se utiliza?","level":"1.4.2","depth":2,"path":"gitbook/comoseutilizagitbook.md","ref":"gitbook/comoseutilizagitbook.md","articles":[]},{"title":"Despliegue","level":"1.4.3","depth":2,"path":"gitbook/desplieguegitbook.md","ref":"gitbook/desplieguegitbook.md","articles":[]},{"title":"Plugins","level":"1.4.4","depth":2,"path":"gitbook/plugins.md","ref":"gitbook/plugins.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-include","-autocover","-layout","youtube","code-editor"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"youtube":{},"toc":{"addClass":"true","className":"toc"},"search":{},"autocover":{"title":"Tareas iniciales SYTW","author":"Alex-Moi","pluginsConfig":{"autocover":{"font":{"size":null,"family":"Impact","color":"#FFF"},"size":{"w":1800,"h":2360},"background":{"color":"#09F"}}}},"layout":{"headerPath":"layouts/header.html","footerPath":"layouts/footer.html"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code-editor":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"gitbook/queesgitbook.md","mtime":"2016-09-27T16:38:31.438Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-09-29T16:16:44.195Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Plugins","level":"1.4.4","depth":2,"next":{"title":"Gh-pages","level":"1.5","depth":1,"path":"ghpages/README.md","ref":"ghpages/README.md","articles":[{"title":"¿Qué es?","level":"1.5.1","depth":2,"path":"ghpages/ghpages.md","ref":"ghpages/ghpages.md","articles":[]},{"title":"¿Cómo se usa?","level":"1.5.2","depth":2,"path":"ghpages/usoghpages.md","ref":"ghpages/usoghpages.md","articles":[]}]},"previous":{"title":"Despliegue","level":"1.4.3","depth":2,"path":"gitbook/desplieguegitbook.md","ref":"gitbook/desplieguegitbook.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-include","-autocover","-layout","youtube","code-editor"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"youtube":{},"toc":{"addClass":"true","className":"toc"},"search":{},"autocover":{"title":"Tareas iniciales SYTW","author":"Alex-Moi","pluginsConfig":{"autocover":{"font":{"size":null,"family":"Impact","color":"#FFF"},"size":{"w":1800,"h":2360},"background":{"color":"#09F"}}}},"layout":{"headerPath":"layouts/header.html","footerPath":"layouts/footer.html"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code-editor":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"gitbook/plugins.md","mtime":"2016-09-29T16:16:17.696Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-09-29T16:16:44.195Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
