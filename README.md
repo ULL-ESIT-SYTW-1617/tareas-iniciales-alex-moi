@@ -12,9 +12,7 @@ En esta práctica, comenzaremos a utilizar **GitBook**, un sistema que nos permi
 
 ## Autores
 
-* Alexander Cole Mora 
-* Moisés Yanes Carballo
+* Alexander Cole Mora  | [Página Personal](alu0100767421.github.io)
+* Moisés Yanes Carballo | [Página Personal](alu0100782851.github.io)
 
 ![Universidad de La Laguna](https://github.com/ULL-ESIT-SYTW-1617/tareas-iniciales-alex-moi/blob/master/images/logotipo-principal.png?raw=true)
-
-
