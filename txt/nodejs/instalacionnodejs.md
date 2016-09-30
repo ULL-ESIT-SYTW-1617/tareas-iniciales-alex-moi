@@ -6,7 +6,6 @@
 Ciclamos en V4.6.0 LTS y comenzará la descarga. En caso de querer instalarlo en otra plataforma diferente seleccionamos la opción "Other downloads" y elegimos la nuestra.
 
 2. Una vez descargado el programa, abrimos el programa de instalación que nos irá guiando a lo largo del proceso. 
-
 ![enter image description here](http://1.bp.blogspot.com/-Twlv8HnSvSQ/Vh6WJ_FodHI/AAAAAAAAA9A/LQDfLb9TXAg/s1600/NodeJs_Instalacion_01.png)
 ![enter image description here](http://alu0100767421.github.io/tareas-iniciales-javi_dsi1516/TutorialesAlexander/images/node3.png)
 ![enter image description here](http://alu0100767421.github.io/tareas-iniciales-javi_dsi1516/TutorialesAlexander/images/node4.png)

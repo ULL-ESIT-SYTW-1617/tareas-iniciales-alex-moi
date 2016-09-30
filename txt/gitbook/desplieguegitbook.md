@@ -7,20 +7,20 @@ Puedes descargar el editor de GitBook para tu sistema operativo desde https://gi
 
 ### Actualizar documentación
 
-Para facilitar la integración con GitBook se ha preparado el shell script ./doc-build.sh que realiza lo siguiente:
+Para facilitar la integración con GitBook se ha preparado los scripts generate-gitbook y deploy-gitbook que realiza lo siguiente:
 
-* Añade en el README.md la versión del pom de tu proyecto o la versión indicada como parámetro y la fecha actual
-* Genera páginas html
-* Genera PDF
+* Generan paginas html
+* Publica el contenido del gitbook en la ghpagues
 
-Por los que si tienes instalado GitBook y Calibre en tu equipo según lo explicado anteriormente puedes ejecutar el shell script doc-build.sh en tu equipo.
 
-````
-./doc-build.sh
-````
-
-Puedes insdicar la versión de la documentación a generar
+Por los que si tienes instalado GitBook y gulp en tu equipo según lo explicado anteriormente puedes ejecutar el siguiente comando para construir el gitbook
 
 ````
-./doc-build.sh 1.0.1
+gulp build
+````
+
+Puedes publicarlo
+
+````
+gulp deploy
 ````

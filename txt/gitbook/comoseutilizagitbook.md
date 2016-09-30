@@ -1,6 +1,6 @@
 # Instalación de GitBook
 
-Si tienes instalado en tu equipo una versión inferior a la 2.0.0 desistala la antigua versión de GitBook con el siguiente comando.
+Para desinstalar e instalar gitbook se deben usar los siguientes comandos.
 
 ###### Desistalar GitBook con NPM
 
