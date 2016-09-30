@@ -4,8 +4,8 @@
         "-include",
         "-autocover",
         "-layout",
-        "youtube",
-        "code-editor"
+        "youtube"
+        
     ],
     "pluginsConfig": {
         "toc": {

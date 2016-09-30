@@ -37,11 +37,5 @@
     "gitbook-cli": "^0.3.4",
     "gulp": "^3.9.1",
     "gulp-shell": "^0.5.2"
-  },
-  "dependencies": {
-    "express": "^4.14.0",
-    "gitbook-plugin-code-editor": "^1.2.1",
-    "gulp-install": "^0.6.0",
-    "gulp-open": "^2.0.0"
   }
 }
