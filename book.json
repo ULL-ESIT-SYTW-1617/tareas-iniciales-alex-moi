@@ -4,7 +4,8 @@
         "-include",
         "-autocover",
         "-layout",
-        "youtube"
+        "youtube",
+        "ace"
         
     ],
     "pluginsConfig": {

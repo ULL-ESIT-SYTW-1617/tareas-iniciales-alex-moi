@@ -15,4 +15,13 @@ En este caso, vamos a utilizar como ejemplo el uso de un plugins como es el de *
 {% youtube %} https://www.youtube.com/watch?v=cyohHyQl-kc {% endyoutube %}
 
 
+{%ace edit=true, lang='c_cpp'%}
+// This is a hello world program for C.
+#include <stdio.h>
+
+int main(){
+  printf("Hello World!");
+  return 1;
+}
+{%endace%}
 
